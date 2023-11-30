@@ -53,12 +53,12 @@ class _RootState extends State<Root> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("My Target"),
+        title: const Text("My Target"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            page = TargetCreate();
+            page = const TargetCreate();
           });
         },
         child: const Icon(Icons.add),
