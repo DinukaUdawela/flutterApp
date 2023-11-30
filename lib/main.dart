@@ -49,7 +49,7 @@ class _RootState extends State<Root> {
     // Initialize tabs here
     tabs = [HomePage(), ChartPage(), HistoryPage()];
   }
-
+//
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
